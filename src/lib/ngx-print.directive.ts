@@ -137,6 +137,7 @@ public returnStyleValues() {
 
     printContents = this.getHtmlContents();
     popupWin = window.open("", "_blank", "top=0,left=0,height=auto,width=auto");
+    popupWin.focus();
     popupWin.document.open();
     popupWin.document.write(`
       <html>
